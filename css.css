@@ -1,0 +1,44 @@
+input[type="text"]{
+    width: 100%;
+    padding: 12px 20px ;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid lightgreen;
+}
+
+input[type="number"]{
+    width: 100%;
+    padding: 12px 20px ;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid lightgreen;
+}
+
+input[type="text"] :focus{
+    border-style: outset;
+    border: 2px solid green;
+}
+
+input[type="number"] :focus{
+    border-style: outset;
+    border: 2px solid green;
+}
+
+h1 {
+    color: rgb(3, 109, 3);
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px rgb(1, 35, 14);
+}
+
+button {
+    background-color: #3b3c36 ;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 15px 32px;
+
+}
